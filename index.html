@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Disney Clone</title>
     <link rel="stylesheet" href="dist/css/main.css">
 </head>
+
 <body>
     <section class="hero">
         <div class="hero__content">
@@ -39,5 +41,104 @@
             </p>
         </div>
     </section>
+
+    <!-- Abas de conteudos -->
+
+    <section class="shows">
+        <nav class="shows__tabs">
+            <button data-tab-button="em_breve" class="shows__tabs__button shows__tabs__button--active">
+                Em breve
+            </button>
+            <button data-tab-button="popular" class="shows__tabs__button">
+                Mais populares
+            </button>
+            <button data-tab-button="starplus" class="shows__tabs__button">
+                Mais no Star+
+            </button>
+        </nav>
+        <ul data-tab-id="em_breve" class="shows__list shows__list--active">
+            <li class="shows__list__item">
+                <img src="dist/images/em_breve/spidey.jpg" alt="" class="shows__list__item">
+            </li>
+
+            <li class="shows__list__item">
+                <img src="dist/images/em_breve/lobisomem.jpg" alt="" class="shows__list__item">
+            </li>
+
+            <li class="shows__list__item">
+                <img src="dist/images/em_breve/sem_limites.jpg" alt="" class="shows__list__item">
+            </li>
+
+            <li class="shows__list__item">
+                <img src="dist/images/em_breve/desencantada.jpg" alt="" class="shows__list__item">
+            </li>
+
+            <li class="shows__list__item">
+                <img src="dist/images/em_breve/willow.jpg" alt="" class="shows__list__item">
+            </li>
+
+            <li class="shows__list__item">
+                <img src="dist/images/em_breve/the_santa_clauses.jpg" alt="" class="shows__list__item">
+            </li>
+
+        </ul>
+
+        <ul data-tab-id="popular" class="shows__list">
+            <li class="shows__list__item">
+                <img src="dist/images/em_breve/willow.jpg" alt="" class="shows__list__item">
+            </li>
+
+            <li class="shows__list__item">
+                <img src="dist/images/em_breve/lobisomem.jpg" alt="" class="shows__list__item">
+            </li>
+
+            <li class="shows__list__item">
+                <img src="dist/images/em_breve/sem_limites.jpg" alt="" class="shows__list__item">
+            </li>
+
+            <li class="shows__list__item">
+                <img src="dist/images/em_breve/desencantada.jpg" alt="" class="shows__list__item">
+            </li>
+
+            <li class="shows__list__item">
+                <img src="dist/images/em_breve/willow.jpg" alt="" class="shows__list__item">
+            </li>
+
+            <li class="shows__list__item">
+                <img src="dist/images/em_breve/the_santa_clauses.jpg" alt="" class="shows__list__item">
+            </li>
+
+        </ul>
+
+        <ul data-tab-id="starplus" class="shows__list">
+            <li class="shows__list__item">
+                <img src="dist/images/em_breve/the_santa_clauses.jpg" alt="" class="shows__list__item">
+            </li>
+
+            <li class="shows__list__item">
+                <img src="dist/images/em_breve/lobisomem.jpg" alt="" class="shows__list__item">
+            </li>
+
+            <li class="shows__list__item">
+                <img src="dist/images/em_breve/sem_limites.jpg" alt="" class="shows__list__item">
+            </li>
+
+            <li class="shows__list__item">
+                <img src="dist/images/em_breve/desencantada.jpg" alt="" class="shows__list__item">
+            </li>
+
+            <li class="shows__list__item">
+                <img src="dist/images/em_breve/willow.jpg" alt="" class="shows__list__item">
+            </li>
+
+            <li class="shows__list__item">
+                <img src="dist/images/em_breve/the_santa_clauses.jpg" alt="" class="shows__list__item">
+            </li>
+
+        </ul>
+    </section>
+
+    <script src="src/main.js"></script>
 </body>
+
 </html>
